@@ -1,0 +1,959 @@
+[
+    {
+        "id": 1,
+        "image": "https://img.icons8.com/clouds/300/apple-app-store.png",
+        "title": "Apple App Store",
+        "companyName": "Apple Inc.",
+        "description": "The Apple App Store is the cornerstone of the iOS ecosystem, offering millions of applications across categories like productivity, entertainment, education, and creativity. It provides users with a safe and curated experience, where every app goes through a strict review process to ensure quality and security. Whether you’re looking for powerful tools for work or games for fun, the App Store connects developers and users in a seamless environment.\n\nDevelopers around the world use the platform to publish and monetize their apps. With features such as subscription management, in-app purchases, and user analytics, the App Store supports both small developers and global enterprises. Apple’s developer community continues to grow, supported by updates and regular improvements to the App Store’s tools and guidelines.\n\nBeyond app distribution, the App Store has become a global digital marketplace, enabling access to books, music, movies, and learning materials. Its user-friendly design and powerful search capabilities make it easy for customers to discover new apps daily. The Store’s commitment to privacy, security, and performance makes it one of the most trusted platforms in the digital world today.",
+        "size": 135,
+        "reviews": 450000,
+        "ratingAvg": 4.7,
+        "downloads": 15000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3200
+            },
+            {
+                "name": "2 star",
+                "count": 5400
+            },
+            {
+                "name": "3 star",
+                "count": 9200
+            },
+            {
+                "name": "4 star",
+                "count": 28500
+            },
+            {
+                "name": "5 star",
+                "count": 406700
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "image": "https://img.icons8.com/bubbles/300/spotify.png",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "description": "Spotify is a leading global music streaming service that allows users to access millions of songs, albums, and podcasts on demand. It provides an intuitive interface that adapts to individual tastes using smart algorithms and recommendations. With its free and premium tiers, Spotify offers both casual listeners and audiophiles a way to enjoy music without interruption.\n\nThe platform empowers artists by giving them tools to reach audiences across the world. Its data-driven insights allow musicians to understand their listeners and refine their creative direction. Spotify has also expanded into podcasts, providing creators an easy way to publish and monetize their audio content.\n\nWith offline downloads, collaborative playlists, and social sharing, Spotify has transformed how people engage with music. Its cross-device compatibility makes it a preferred choice for millions, ensuring music follows users wherever they go. Spotify continues to innovate in personalization, making the listening experience more enjoyable and connected than ever before.",
+        "size": 112,
+        "reviews": 380000,
+        "ratingAvg": 4.8,
+        "downloads": 12000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2500
+            },
+            {
+                "name": "2 star",
+                "count": 3800
+            },
+            {
+                "name": "3 star",
+                "count": 7400
+            },
+            {
+                "name": "4 star",
+                "count": 24000
+            },
+            {
+                "name": "5 star",
+                "count": 342300
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "image": "https://img.icons8.com/clouds/300/tiktok.png",
+        "title": "TikTok",
+        "companyName": "ByteDance Ltd.",
+        "description": "TikTok is one of the most popular short-video platforms globally, known for its engaging and creative content. Users can create, edit, and share short videos enhanced with music, filters, and effects. The app’s algorithm delivers personalized recommendations, ensuring every user’s feed feels unique and exciting.\n\nBeyond entertainment, TikTok has evolved into a space for education, marketing, and storytelling. Brands, influencers, and creators use it to connect with massive audiences through authentic and interactive videos. Its duet and challenge features promote collaboration and trends that spread worldwide within hours.\n\nTikTok continues to innovate by integrating e-commerce, live streaming, and creative tools for users. It has redefined digital engagement, turning casual users into content creators and trendsetters. The platform’s impact on culture, business, and entertainment remains unparalleled in today’s digital landscape.",
+        "size": 210,
+        "reviews": 410000,
+        "ratingAvg": 4.6,
+        "downloads": 18000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 4200
+            },
+            {
+                "name": "2 star",
+                "count": 6500
+            },
+            {
+                "name": "3 star",
+                "count": 9000
+            },
+            {
+                "name": "4 star",
+                "count": 29000
+            },
+            {
+                "name": "5 star",
+                "count": 361300
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "image": "https://img.icons8.com/clouds/300/discord.png",
+        "title": "Discord",
+        "companyName": "Discord Inc.",
+        "description": "Discord is a communication platform designed for communities, gamers, and professionals to connect through voice, video, and text channels. With its intuitive design, users can create their own servers to host discussions, collaborate on projects, or play games with friends. It offers high-quality audio and flexible moderation tools that make managing large communities effortless.\n\nBeyond gaming, Discord has evolved into a powerful hub for study groups, artists, and remote teams. The platform supports screen sharing, live streaming, and integrated bots that automate moderation and engagement. Users can also integrate external apps like Spotify and Twitch for enhanced experiences.\n\nDiscord’s commitment to privacy and user empowerment continues to make it one of the most loved community tools globally. Its constant innovation ensures smooth performance across devices, helping millions stay connected, collaborate, and share ideas in real time.",
+        "size": 165,
+        "reviews": 275000,
+        "ratingAvg": 4.5,
+        "downloads": 9500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3000
+            },
+            {
+                "name": "2 star",
+                "count": 5200
+            },
+            {
+                "name": "3 star",
+                "count": 7400
+            },
+            {
+                "name": "4 star",
+                "count": 23000
+            },
+            {
+                "name": "5 star",
+                "count": 236400
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "image": "https://img.icons8.com/ios-filled/300/shazam.png",
+        "title": "Shazam",
+        "companyName": "Apple Inc.",
+        "description": "Shazam is a music discovery app that instantly identifies songs playing nearby. Whether you’re in a café or watching TV, Shazam can tell you the name of a song in seconds. The app also provides lyrics, artist information, and links to listen on major streaming services like Apple Music and Spotify.\n\nShazam’s technology is built on powerful audio recognition algorithms that match sound patterns to a massive global database. This innovation makes it one of the most reliable tools for music lovers and professionals alike. It continues to enhance its design for speed, accuracy, and ease of use.\n\nOver the years, Shazam has become more than a utility—it’s a gateway to music exploration. With millions of daily searches, it connects users with artists and trends around the world. Its integration with Siri and iOS makes song discovery more seamless than ever before.",
+        "size": 95,
+        "reviews": 240000,
+        "ratingAvg": 4.8,
+        "downloads": 9000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1800
+            },
+            {
+                "name": "2 star",
+                "count": 2600
+            },
+            {
+                "name": "3 star",
+                "count": 5400
+            },
+            {
+                "name": "4 star",
+                "count": 21000
+            },
+            {
+                "name": "5 star",
+                "count": 210200
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "image": "https://img.icons8.com/color/300/workspace-one.png",
+        "title": "Workspace One",
+        "companyName": "VMware Inc.",
+        "description": "Workspace ONE is a powerful digital workspace platform that allows businesses to manage applications, devices, and user access securely from one unified system. It simplifies IT operations by integrating mobile management, app delivery, and identity management into a single dashboard. Organizations use Workspace ONE to enhance productivity while ensuring data security and compliance.\n\nWith seamless integration across desktop and mobile devices, it empowers employees to work from anywhere without compromising control. Workspace ONE also enables administrators to automate app deployment, monitor device health, and enforce corporate policies remotely. Its analytics tools provide valuable insights into performance, user behavior, and potential risks.\n\nAs hybrid and remote work become the norm, Workspace ONE remains a trusted solution for global enterprises. Its combination of security, flexibility, and ease of use makes it essential for managing modern digital work environments efficiently.",
+        "size": 256,
+        "reviews": 98000,
+        "ratingAvg": 4.4,
+        "downloads": 3500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2100
+            },
+            {
+                "name": "2 star",
+                "count": 3300
+            },
+            {
+                "name": "3 star",
+                "count": 5800
+            },
+            {
+                "name": "4 star",
+                "count": 18900
+            },
+            {
+                "name": "5 star",
+                "count": 67900
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "image": "https://img.icons8.com/color/300/ibis-paint-x.png",
+        "title": "Ibis Paint X",
+        "companyName": "Ibis Inc.",
+        "description": "Ibis Paint X is a highly popular drawing and painting application designed for both beginners and professional artists. With over 15,000 brushes, 7,000 materials, and advanced layers, it offers one of the most feature-rich mobile drawing experiences. Artists use it for digital illustrations, manga, and concept art.\n\nIts community-driven design encourages sharing artwork and learning from others. Users can record their drawing process as videos and upload them to inspire the global art community. The app’s user interface is intuitive, allowing easy navigation between brushes, effects, and editing tools.\n\nIbis Paint X continues to evolve with regular updates that introduce new brushes, performance improvements, and compatibility with tablets. It’s a go-to creative platform for artists seeking flexibility, community, and professional-grade tools on the go.",
+        "size": 185,
+        "reviews": 350000,
+        "ratingAvg": 4.8,
+        "downloads": 10000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3200
+            },
+            {
+                "name": "2 star",
+                "count": 4100
+            },
+            {
+                "name": "3 star",
+                "count": 7200
+            },
+            {
+                "name": "4 star",
+                "count": 29000
+            },
+            {
+                "name": "5 star",
+                "count": 306500
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "image": "https://img.icons8.com/plasticine/300/ibis-paint-x.png",
+        "title": "Ibis Paint Studio",
+        "companyName": "Ibis Co.",
+        "description": "Ibis Paint Studio takes the creativity of Ibis Paint X to the next level, offering a premium digital art experience for professionals. It provides precision tools, a customizable workspace, and cloud sync for easy access across devices. Artists appreciate its support for stylus input and advanced layer blending options.\n\nThe app emphasizes freedom of creation with unlimited canvas sizes and import/export capabilities in PSD and PNG formats. It allows artists to manage portfolios, collaborate on projects, and showcase their works within the in-app community.\n\nIbis Paint Studio stands out as a modern creative suite that bridges the gap between mobile and desktop illustration tools. Whether sketching, inking, or painting, it delivers power, performance, and portability for today’s digital artists.",
+        "size": 220,
+        "reviews": 87000,
+        "ratingAvg": 4.7,
+        "downloads": 4100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1800
+            },
+            {
+                "name": "2 star",
+                "count": 2900
+            },
+            {
+                "name": "3 star",
+                "count": 5400
+            },
+            {
+                "name": "4 star",
+                "count": 18700
+            },
+            {
+                "name": "5 star",
+                "count": 57600
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "image": "https://img.icons8.com/color/300/zalo.png",
+        "title": "Zalo Messenger",
+        "companyName": "VNG Corporation",
+        "description": "Zalo Messenger is a fast and secure communication platform popular across Vietnam and Southeast Asia. It offers high-quality voice and video calls, instant messaging, and file-sharing features. The app’s lightweight design ensures stable performance even with limited internet connectivity.\n\nZalo also integrates social media-like features, including stories, friend timelines, and group chats. Businesses use it for customer communication and brand engagement. The platform’s advanced encryption ensures privacy and safe data exchange.\n\nAs one of the region’s most trusted apps, Zalo continues to expand with cross-device support and improved international connectivity. It combines the simplicity of messaging with the power of community, connecting millions every day.",
+        "size": 142,
+        "reviews": 210000,
+        "ratingAvg": 4.5,
+        "downloads": 9000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 3200
+            },
+            {
+                "name": "2 star",
+                "count": 4800
+            },
+            {
+                "name": "3 star",
+                "count": 7200
+            },
+            {
+                "name": "4 star",
+                "count": 26000
+            },
+            {
+                "name": "5 star",
+                "count": 168800
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "image": "https://img.icons8.com/color/300/shazam.png",
+        "title": "Shazam Lite",
+        "companyName": "Apple Inc.",
+        "description": "Shazam Lite offers the same music recognition power as Shazam but in a lightweight version optimized for low-storage devices. It identifies songs quickly and accurately, even in noisy environments or weak network conditions. The app provides instant song details, lyrics, and artist information.\n\nDesigned for speed, Shazam Lite consumes minimal data and memory, making it perfect for users on the go. It syncs your search history across devices and integrates with streaming platforms for quick playback. The user interface is clean and simple, focusing solely on fast music discovery.\n\nThis app is ideal for those who want Shazam’s core features without the extras. It’s proof that great functionality doesn’t require a heavy app footprint, offering users a smooth and satisfying experience worldwide.",
+        "size": 55,
+        "reviews": 64000,
+        "ratingAvg": 4.6,
+        "downloads": 2500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 900
+            },
+            {
+                "name": "2 star",
+                "count": 1700
+            },
+            {
+                "name": "3 star",
+                "count": 3100
+            },
+            {
+                "name": "4 star",
+                "count": 10200
+            },
+            {
+                "name": "5 star",
+                "count": 48100
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "image": "https://img.icons8.com/color/300/goodnotes.png",
+        "title": "GoodNotes",
+        "companyName": "Time Base Technology Ltd.",
+        "description": "GoodNotes is a note-taking app that turns your digital device into a smart notebook. It supports handwriting, typing, and PDF annotation, allowing students and professionals to organize thoughts creatively. Its handwriting recognition technology converts written text into searchable digital notes.\n\nThe app’s user interface mimics real paper notebooks with customizable covers, colors, and folders. GoodNotes syncs seamlessly across devices via iCloud, making your notes accessible anytime. You can also import documents, highlight key points, and export annotated files effortlessly.\n\nFor anyone who values organization and creativity, GoodNotes stands as one of the best productivity tools. It combines the tactile experience of handwriting with the power of digital flexibility, revolutionizing how people learn and work.",
+        "size": 190,
+        "reviews": 185000,
+        "ratingAvg": 4.9,
+        "downloads": 8500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 1400
+            },
+            {
+                "name": "2 star",
+                "count": 2500
+            },
+            {
+                "name": "3 star",
+                "count": 4100
+            },
+            {
+                "name": "4 star",
+                "count": 17800
+            },
+            {
+                "name": "5 star",
+                "count": 161200
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "image": "https://img.icons8.com/clouds/300/canva.png",
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd",
+        "description": "Canva is a design tool that empowers anyone to create stunning graphics, social media posts, and presentations with ease. It offers thousands of templates, photos, and design elements that make professional-quality design accessible to everyone. Whether you’re a student or a business owner, Canva simplifies creativity.\n\nIts drag-and-drop interface enables users to design anything without technical skills. With collaborative features, teams can create and edit projects in real-time. Canva’s cloud storage ensures that all designs are safe and accessible across devices.\n\nFrom brand kits to AI-powered tools, Canva continues to push the boundaries of digital design. It has revolutionized how people create visuals, making design faster, easier, and more inclusive than ever.",
+        "size": 210,
+        "reviews": 500000,
+        "ratingAvg": 4.9,
+        "downloads": 20000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 2600
+            },
+            {
+                "name": "2 star",
+                "count": 4200
+            },
+            {
+                "name": "3 star",
+                "count": 8500
+            },
+            {
+                "name": "4 star",
+                "count": 41000
+            },
+            {
+                "name": "5 star",
+                "count": 444700
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "image": "https://img.icons8.com/clouds/300/youtube.png",
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "description": "YouTube is the world’s largest video-sharing platform, offering content from entertainment to education. It empowers creators to reach global audiences while giving viewers endless hours of videos across categories. Its recommendation engine ensures personalized viewing experiences for every user.\n\nCreators can monetize their content, build communities, and even host live streams. The app supports offline downloads, HD playback, and customizable playlists. With continuous innovation, YouTube remains a vital platform for discovery and expression.\n\nBeyond videos, YouTube has evolved into an ecosystem of music, learning, and community-driven engagement. Its influence on culture and media continues to shape digital communication worldwide.",
+        "size": 230,
+        "reviews": 950000,
+        "ratingAvg": 4.8,
+        "downloads": 50000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 9200
+            },
+            {
+                "name": "2 star",
+                "count": 12100
+            },
+            {
+                "name": "3 star",
+                "count": 18200
+            },
+            {
+                "name": "4 star",
+                "count": 58000
+            },
+            {
+                "name": "5 star",
+                "count": 852500
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "image": "https://img.icons8.com/clouds/300/radish-app.png",
+        "title": "SnapVerse",
+        "companyName": "Visionary Labs",
+        "description": "SnapVerse is a creative social platform that brings storytelling to life through short visual clips. Whether you're a vlogger, creator, or everyday user, SnapVerse gives you the tools to express yourself with cinematic filters, smooth transitions, and trending audio.\n\nThe app’s AI-powered video editor helps transform basic recordings into polished, professional-quality content. Users can add text overlays, background music, and motion effects in just a few taps. It’s perfect for building an audience or sharing moments that matter.\n\nJoin the SnapVerse community and connect with millions of creative minds worldwide. Inspire others, share your story, and make your moments unforgettable with SnapVerse!",
+        "size": 178,
+        "reviews": 24120,
+        "ratingAvg": 4.4,
+        "downloads": 5400000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 640
+            },
+            {
+                "name": "2 star",
+                "count": 1020
+            },
+            {
+                "name": "3 star",
+                "count": 3180
+            },
+            {
+                "name": "4 star",
+                "count": 7600
+            },
+            {
+                "name": "5 star",
+                "count": 11680
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "image": "https://img.icons8.com/bubbles/300/zalo.png",
+        "title": "MindMingle",
+        "companyName": "NeuroLink Studios",
+        "description": "MindMingle blends entertainment and education into one fun app. It offers interactive brain games, puzzles, and quizzes that enhance memory, logic, and focus. Perfect for users of all ages, MindMingle helps keep your mind active every day.\n\nThe app’s learning algorithms adjust difficulty levels based on your performance, ensuring every challenge fits your ability. With daily streak rewards and progress charts, you can see real improvement over time.\n\nWhether during a short break or a daily routine, MindMingle provides a refreshing way to boost your mental agility while having fun. Train your brain and challenge yourself today!",
+        "size": 120,
+        "reviews": 15380,
+        "ratingAvg": 4.6,
+        "downloads": 3300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 380
+            },
+            {
+                "name": "2 star",
+                "count": 760
+            },
+            {
+                "name": "3 star",
+                "count": 1890
+            },
+            {
+                "name": "4 star",
+                "count": 4980
+            },
+            {
+                "name": "5 star",
+                "count": 9370
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "image": "https://img.icons8.com/plasticine/300/zalo.png",
+        "title": "VibeFlow",
+        "companyName": "TuneX Media",
+        "description": "VibeFlow connects you with music that matches your mood. By analyzing your listening habits and daily routines, it recommends tracks that fit your emotional rhythm — from chill mornings to energetic workouts.\n\nThe app offers personalized playlists, artist insights, and social listening sessions where you can share your vibe with friends. It also integrates seamlessly with smart speakers and wearable devices for a connected experience.\n\nWith VibeFlow, every beat feels personal. Rediscover music the way it was meant to be — unique, immersive, and made for you.",
+        "size": 210,
+        "reviews": 18400,
+        "ratingAvg": 4.7,
+        "downloads": 4800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 440
+            },
+            {
+                "name": "2 star",
+                "count": 820
+            },
+            {
+                "name": "3 star",
+                "count": 1980
+            },
+            {
+                "name": "4 star",
+                "count": 5520
+            },
+            {
+                "name": "5 star",
+                "count": 9630
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "image": "https://img.icons8.com/dusk/300/google-docs.png",
+        "title": "DocuSmart",
+        "companyName": "CloudBase Technologies",
+        "description": "DocuSmart is a professional document editing and management platform designed for teams and individuals. It allows users to create, edit, and share files in real time with built-in collaboration tools.\n\nYou can store your documents securely on the cloud, access them offline, and manage permissions easily. With voice typing, smart formatting, and AI grammar suggestions, writing becomes more efficient than ever.\n\nDocuSmart streamlines how you work, learn, and communicate — turning everyday writing into a seamless experience. Simplify your workflow and stay productive anywhere, anytime.",
+        "size": 260,
+        "reviews": 33210,
+        "ratingAvg": 4.8,
+        "downloads": 8500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 720
+            },
+            {
+                "name": "2 star",
+                "count": 930
+            },
+            {
+                "name": "3 star",
+                "count": 2820
+            },
+            {
+                "name": "4 star",
+                "count": 8120
+            },
+            {
+                "name": "5 star",
+                "count": 20520
+            }
+        ]
+    },
+    {
+        "id": 18,
+        "image": "https://img.icons8.com/plasticine/300/apple-books.png",
+        "title": "Readly",
+        "companyName": "BookWave Ltd.",
+        "description": "Readly is a digital library app offering thousands of books, magazines, and audiobooks in one place. Whether you love fiction, business, or personal growth, Readly brings the world’s stories to your fingertips.\n\nWith offline downloads, customizable reading themes, and text-to-speech functionality, it’s perfect for both avid and casual readers. You can also follow authors, leave reviews, and receive recommendations tailored to your reading habits.\n\nReading has never been more convenient. With Readly, your next favorite story is only a tap away.",
+        "size": 185,
+        "reviews": 26480,
+        "ratingAvg": 4.7,
+        "downloads": 6200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 550
+            },
+            {
+                "name": "2 star",
+                "count": 970
+            },
+            {
+                "name": "3 star",
+                "count": 2150
+            },
+            {
+                "name": "4 star",
+                "count": 6080
+            },
+            {
+                "name": "5 star",
+                "count": 12730
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "image": "https://img.icons8.com/pulsar-gradient/300/youtube-play.png",
+        "title": "StreamEdge",
+        "companyName": "VisionTech Media",
+        "description": "StreamEdge offers a next-level video experience with endless entertainment. Watch trending videos, live streams, and exclusive content from creators around the world, all optimized for high-quality playback.\n\nThe app’s smart recommendation system curates content that matches your interests, ensuring a personalized viewing journey. You can like, comment, and share effortlessly, building your own entertainment universe.\n\nStreamEdge is lightweight, fast, and designed for smooth performance even on low connections. Dive into endless videos and discover something new every day!",
+        "size": 240,
+        "reviews": 39210,
+        "ratingAvg": 4.5,
+        "downloads": 9600000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 930
+            },
+            {
+                "name": "2 star",
+                "count": 1280
+            },
+            {
+                "name": "3 star",
+                "count": 3320
+            },
+            {
+                "name": "4 star",
+                "count": 9100
+            },
+            {
+                "name": "5 star",
+                "count": 24780
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "image": "https://img.icons8.com/doodle/300/piccollage.png",
+        "title": "FitTrack Pro",
+        "companyName": "HealthSync Inc.",
+        "description": "FitTrack Pro is your all-in-one health and fitness companion designed to help you reach your wellness goals. Whether you’re looking to lose weight, build muscle, or simply live a more active lifestyle, FitTrack Pro provides tailored workout routines, meal plans, and progress tracking tools.\n\nWith intelligent analytics, the app monitors your daily activities, calorie intake, and sleep patterns to give you accurate health insights. FitTrack Pro also integrates seamlessly with popular fitness devices, syncing your data in real time to keep your progress visible and motivating.\n\nThe app’s community section allows users to join challenges, share milestones, and stay accountable through peer motivation. FitTrack Pro isn’t just about tracking — it’s about building a lifestyle. Start today and transform your health journey with precision and motivation!",
+        "size": 245,
+        "reviews": 28192,
+        "ratingAvg": 4.6,
+        "downloads": 5000000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 650
+            },
+            {
+                "name": "2 star",
+                "count": 1020
+            },
+            {
+                "name": "3 star",
+                "count": 3150
+            },
+            {
+                "name": "4 star",
+                "count": 7800
+            },
+            {
+                "name": "5 star",
+                "count": 15600
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "image": "https://img.icons8.com/bubbles/300/--tinder.png",
+        "title": "PhotoMagic Studio",
+        "companyName": "PixelWave Labs",
+        "description": "PhotoMagic Studio redefines mobile photo editing with professional-grade tools packed into an easy-to-use interface. It empowers users to transform ordinary images into extraordinary artworks with filters, AI effects, and color correction tools.\n\nThe app offers powerful features like background removal, beauty retouching, and double-exposure blending. Each tool is designed to enhance creativity while maintaining the natural look of your photos. Whether you’re a photographer or a casual user, PhotoMagic Studio delivers exceptional results every time.\n\nPhotoMagic Studio also features cloud sync and project sharing, allowing collaboration with friends or clients. With intuitive design and lightning-fast processing, your creativity knows no bounds. It’s time to turn every picture into a masterpiece!",
+        "size": 185,
+        "reviews": 11984,
+        "ratingAvg": 4.3,
+        "downloads": 2800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 400
+            },
+            {
+                "name": "2 star",
+                "count": 980
+            },
+            {
+                "name": "3 star",
+                "count": 2100
+            },
+            {
+                "name": "4 star",
+                "count": 4600
+            },
+            {
+                "name": "5 star",
+                "count": 5904
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "image": "https://img.icons8.com/clouds/300/piccollage.png",
+        "title": "WorkPro Organizer",
+        "companyName": "TaskWise Ltd.",
+        "description": "WorkPro Organizer simplifies project and task management for individuals and teams. Designed with productivity in mind, it combines task tracking, note-taking, and collaboration tools in one intuitive dashboard. You can set priorities, deadlines, and milestones for your projects and access everything seamlessly across devices.\n\nWith AI-based reminders and smart task suggestions, WorkPro Organizer ensures you never miss a deadline. Its minimalist design helps you stay focused, while data visualization tools show your progress in a glance. The integration with cloud storage makes collaboration smoother than ever.\n\nWhether managing a solo project or coordinating a large team, WorkPro Organizer adapts to your workflow. It’s the productivity partner you need to stay ahead in your professional life.",
+        "size": 155,
+        "reviews": 16540,
+        "ratingAvg": 4.7,
+        "downloads": 4300000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 340
+            },
+            {
+                "name": "2 star",
+                "count": 870
+            },
+            {
+                "name": "3 star",
+                "count": 1920
+            },
+            {
+                "name": "4 star",
+                "count": 5300
+            },
+            {
+                "name": "5 star",
+                "count": 9110
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "image": "https://img.icons8.com/clouds/300/workout-women.png",
+        "title": "ZenBalance",
+        "companyName": "MindEase Studio",
+        "description": "ZenBalance is the ultimate app for mindfulness, meditation, and relaxation. Designed to help you manage stress and find inner peace, it offers guided meditations, calming sounds, and breathing exercises curated by mental health professionals.\n\nThe app’s AI mood tracker monitors your emotional state and recommends personalized sessions for better focus and sleep. You can choose from various soundscapes, including nature sounds, rain, and ambient music, to build your perfect relaxation environment.\n\nWhether you’re new to meditation or an experienced practitioner, ZenBalance makes mindfulness accessible and enjoyable. Take control of your mental well-being today and find balance in your everyday life.",
+        "size": 132,
+        "reviews": 19820,
+        "ratingAvg": 4.8,
+        "downloads": 3200000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 310
+            },
+            {
+                "name": "2 star",
+                "count": 620
+            },
+            {
+                "name": "3 star",
+                "count": 1890
+            },
+            {
+                "name": "4 star",
+                "count": 4980
+            },
+            {
+                "name": "5 star",
+                "count": 11020
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "image": "https://img.icons8.com/clouds/300/workout-women.png",
+        "title": "CookNest",
+        "companyName": "KitchenWave",
+        "description": "CookNest brings joy back to home cooking with its extensive recipe library and interactive features. Whether you’re a beginner or a seasoned chef, CookNest offers step-by-step instructions, video tutorials, and ingredient customization for every dish.\n\nUsers can plan weekly meals, create shopping lists, and track nutritional values for each recipe. The app also includes a smart AI assistant that suggests meals based on your available ingredients, saving you time and reducing food waste.\n\nFrom traditional favorites to international cuisines, CookNest keeps your kitchen adventures exciting. Connect with other food lovers and share your culinary creations effortlessly!",
+        "size": 275,
+        "reviews": 18530,
+        "ratingAvg": 4.5,
+        "downloads": 4100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 470
+            },
+            {
+                "name": "2 star",
+                "count": 880
+            },
+            {
+                "name": "3 star",
+                "count": 1920
+            },
+            {
+                "name": "4 star",
+                "count": 5400
+            },
+            {
+                "name": "5 star",
+                "count": 9860
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "image": "https://img.icons8.com/clouds/300/twitter-squared.png",
+        "title": "Talkify Chat",
+        "companyName": "NovaComm",
+        "description": "Talkify Chat is a next-generation social platform designed for genuine conversations and meaningful connections. It offers a safe and interactive space for users to communicate through texts, voice, and video calls.\n\nWith advanced privacy features, Talkify ensures that all messages are encrypted, protecting your conversations from unwanted access. The app also includes discussion forums and topic-based groups where people can engage based on shared interests.\n\nTalkify’s design is clean, intuitive, and fun, making it easy for anyone to connect with new people around the world. Rediscover authentic communication — one message at a time!",
+        "size": 210,
+        "reviews": 24310,
+        "ratingAvg": 4.4,
+        "downloads": 5500000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 780
+            },
+            {
+                "name": "2 star",
+                "count": 1200
+            },
+            {
+                "name": "3 star",
+                "count": 3500
+            },
+            {
+                "name": "4 star",
+                "count": 6900
+            },
+            {
+                "name": "5 star",
+                "count": 10930
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "image": "https://img.icons8.com/plasticine/300/zalo.png",
+        "title": "SoundLoom",
+        "companyName": "EchoCraft Ltd.",
+        "description": "SoundLoom lets users create and mix audio tracks with studio-level precision. From beginners to sound engineers, everyone can enjoy the simplicity of drag-and-drop music creation with a professional sound engine.\n\nThe app includes loop packs, virtual instruments, and effects plugins that make your creativity limitless. You can record vocals, add harmonies, and even collaborate with artists online in real-time.\n\nWhether producing podcasts, songs, or remixes, SoundLoom provides a powerful yet intuitive platform for your audio projects. Bring your sound to life like never before!",
+        "size": 198,
+        "reviews": 15320,
+        "ratingAvg": 4.6,
+        "downloads": 3800000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 420
+            },
+            {
+                "name": "2 star",
+                "count": 720
+            },
+            {
+                "name": "3 star",
+                "count": 1820
+            },
+            {
+                "name": "4 star",
+                "count": 4900
+            },
+            {
+                "name": "5 star",
+                "count": 9460
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "image": "https://img.icons8.com/clouds/300/workout-women.png",
+        "title": "SkillForge",
+        "companyName": "Eduverse Labs",
+        "description": "SkillForge helps learners acquire new skills through bite-sized lessons, interactive quizzes, and real-world projects. Whether you’re learning coding, design, or marketing, SkillForge adapts to your pace and goals.\n\nWith gamified learning modules, you can earn rewards, badges, and certificates as you progress. The app’s AI mentor recommends courses based on your career path and learning preferences.\n\nSkillForge empowers people to build a better future through education. Learn, grow, and transform your skills with one of the smartest learning platforms available today!",
+        "size": 250,
+        "reviews": 20150,
+        "ratingAvg": 4.8,
+        "downloads": 6100000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 340
+            },
+            {
+                "name": "2 star",
+                "count": 820
+            },
+            {
+                "name": "3 star",
+                "count": 1950
+            },
+            {
+                "name": "4 star",
+                "count": 5620
+            },
+            {
+                "name": "5 star",
+                "count": 10420
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "image": "https://img.icons8.com/clouds/300/workout-women.png",
+        "title": "NoteEase",
+        "companyName": "SmartDocs Inc.",
+        "description": "NoteEase reimagines note-taking with powerful organization tools and a beautifully simple interface. You can create text, audio, and visual notes, all stored securely in the cloud for easy access anytime.\n\nThe app supports handwriting recognition, voice-to-text input, and real-time syncing across devices. It’s ideal for students, professionals, and creatives who want to keep their thoughts structured and searchable.\n\nWith seamless sharing options, NoteEase is not just for taking notes — it’s for creating ideas. Simplify your workflow and never lose a thought again!",
+        "size": 145,
+        "reviews": 14120,
+        "ratingAvg": 4.5,
+        "downloads": 2900000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 460
+            },
+            {
+                "name": "2 star",
+                "count": 920
+            },
+            {
+                "name": "3 star",
+                "count": 1800
+            },
+            {
+                "name": "4 star",
+                "count": 4100
+            },
+            {
+                "name": "5 star",
+                "count": 6840
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "image": "https://img.icons8.com/doodle/300/piccollage.png",
+        "title": "TravelMate",
+        "companyName": "WanderApp Co.",
+        "description": "TravelMate simplifies your travel experience by offering trip planning, expense tracking, and local exploration in one place. Whether you’re planning a solo trip or a group vacation, TravelMate ensures every detail is covered.\n\nYou can explore destinations, find hotel deals, and manage itineraries effortlessly. The app’s AI-powered assistant also recommends restaurants, attractions, and hidden gems based on your preferences.\n\nWith TravelMate, your adventures become stress-free and memorable. Explore smarter, travel better, and make every journey unforgettable.",
+        "size": 160,
+        "reviews": 23400,
+        "ratingAvg": 4.7,
+        "downloads": 5700000,
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 580
+            },
+            {
+                "name": "2 star",
+                "count": 940
+            },
+            {
+                "name": "3 star",
+                "count": 2100
+            },
+            {
+                "name": "4 star",
+                "count": 6200
+            },
+            {
+                "name": "5 star",
+                "count": 11580
+            }
+        ]
+    }
+]

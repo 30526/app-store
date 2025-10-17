@@ -29,8 +29,8 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className='flex items-center gap-2'>
-                        <img className='h-10' src={logo} alt="Logo picture" />
-                        <a className="text-xl font-bold bg-gradient-to-br 
+                        <img className='h-8' src={logo} alt="Logo picture" />
+                        <a className="text-lg font-bold bg-gradient-to-br 
                         from-[#632EE3] to-[#9F62F2] text-transparent bg-clip-text hidden md:block">APP.STORE</a>
                     </div>
                 </div>
