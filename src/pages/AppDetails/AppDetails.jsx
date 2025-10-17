@@ -5,6 +5,7 @@ import Container from '../../components/Container/Container';
 import downloadIcon from '../../assets/icon-downloads.png'
 import starIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
+import Recharts from '../../components/Recharts/Recharts';
 
 
 const AppDetails = () => {
@@ -12,13 +13,15 @@ const AppDetails = () => {
     const [appData, loading] = useAppData()
     const app = appData.find(getApp => getApp.id === parseInt(id));
     if (loading) return <p>Loading...</p>
-    const { title, image, companyName, ratingAvg, reviews, downloads, size } = app;
+    const { title, image, companyName, ratingAvg, reviews, downloads, size, ratings } = app;
     return (
         <Container>
             <div className='my-15 items-center flex gap-10 flex-col md:flex-row'>
-                <div className='bg-white p-4 rounded-md'>
-                    <img className='md:h-70 mx-auto' src={image} alt="Product Image" />
+
+                <div className='bg-white h-78 p-6 rounded-md  '>
+                    <img className='mx-auto' src={image} alt="Product Image" />
                 </div>
+
                 <div className='mr-auto px-6'>
                     <h4 className='text-4xl font-bold text-gray-800 mb-3'>{title}</h4>
                     <p className='text-gray-600'>Developed by <span className='text-[#632EE3] font-semibold'>{companyName}</span></p>
@@ -44,6 +47,9 @@ const AppDetails = () => {
 
                         className='bg-[#00D390] btn text-white mt-4 text-lg font-normal py-6'>Install Now ({size}MB)</button>
                 </div>
+            </div>
+            <div>
+                <Recharts key={id} ratings={ratings}></Recharts>
             </div>
         </Container>
     );
