@@ -27,3 +27,11 @@ export const saveData = (data) => {
         console.log(error)
     }
 }
+
+export const handleRemove = (id) => {
+    const oldData = getItem()
+    const removeData = oldData.filter(data => data.id !== id);
+    const newData = localStorage.setItem('appData', JSON.stringify(removeData))
+    return newData;
+
+}
