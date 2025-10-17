@@ -4,6 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaAppStore } from "react-icons/fa";
 import { MdInstallDesktop } from "react-icons/md";
 import { NavLink } from 'react-router';
+import { TbHome } from "react-icons/tb";
+
 
 
 
@@ -39,7 +41,7 @@ const Navbar = () => {
                         <NavLink to={'/'}>
                             <span
                                 onClick={() => setActive('')}
-                                className={`hover:text-[#632EE3] ${active === '' && 'text-[#632EE3] underline'}`}>Home</span></NavLink>
+                                className={`hover:text-[#632EE3] ${active === '' && 'text-[#632EE3] underline'} flex items-center gap-1`}><TbHome></TbHome> Home</span></NavLink>
                         <NavLink to={'/apps'}>
                             <span
                                 onClick={() => setActive('apps')}

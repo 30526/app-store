@@ -27,19 +27,19 @@ const Banner = () => {
                 <h2 className='text-4xl text-white font-bold'>Trusted By Millions, Built For You</h2>
                 <div className='flex flex-col md:flex-row my-10 justify-center gap-15 md:gap-30'>
                     <div className='text-center'>
-                        <p className='text-white text-xs'>Total Downloads</p>
+                        <p className='text-white text-xs font-light'>Total Downloads</p>
                         <h3 className='text-6xl font-bold text-white my-3'>29.6M</h3>
-                        <p className='text-white text-xs'>21% More Than Last Month</p>
+                        <p className='text-white text-xs font-light'>21% More Than Last Month</p>
                     </div>
                     <div className='text-center'>
-                        <p className='text-white text-xs'>Total Reviews</p>
+                        <p className='text-white text-xs font-light'>Total Reviews</p>
                         <h3 className='text-6xl font-bold text-white my-3'>906K</h3>
-                        <p className='text-white text-xs'>46% More Than Last Month</p>
+                        <p className='text-white text-xs font-light'>46% More Than Last Month</p>
                     </div>
                     <div className='text-center'>
-                        <p className='text-white text-xs'>Active Apps</p>
+                        <p className='text-white text-xs font-light'>Active Apps</p>
                         <h3 className='text-6xl font-bold text-white my-3'>132+</h3>
-                        <p className='text-white text-xs'>31 More Will Launch</p>
+                        <p className='text-white text-xs font-light'>31 More Will Launch</p>
                     </div>
 
                 </div>
