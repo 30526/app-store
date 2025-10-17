@@ -3,12 +3,14 @@ import useAppData from '../../Hooks/useAppData';
 import Container from '../Container/Container';
 import AppCard from '../AppCard/AppCard';
 import AppError from '../AppError/AppError';
+import Loading from '../Loading/Loading';
 
 
 
 const AllApps = () => {
-    const [appData] = useAppData();
+    const [appData, loading] = useAppData();
     const [search, setSearch] = useState('');
+    if (loading) return <Loading></Loading>
     const term = search.trim().toLocaleLowerCase();
     const searchData = term ? appData.filter(app => app.title.toLowerCase().includes(term)) : appData;
     return (
@@ -32,7 +34,9 @@ const AllApps = () => {
                     searchData.length === 0 ? <AppError></AppError> :
                         <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-2 md:gap-4 mb-10'>
                             {
-                                searchData.map(app => <AppCard key={app.id} app={app}></AppCard>)
+                                loading ? <Loading></Loading> :
+                                    searchData.map(app => <AppCard key={app.id} app={app}></AppCard>)
+
                             }
                         </div>
 

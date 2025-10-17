@@ -5,13 +5,14 @@ import Apps from "../pages/Apps/Apps";
 import Installed from "../pages/Installed/Installed";
 import AppDetails from "../pages/AppDetails/AppDetails";
 import Error from "../components/Error/Error";
+import ErrorRoutes from "../components/ErrorRoutes/ErrorRoutes";
+import AppError from "../components/AppError/AppError";
 
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
-        errorElement: <Error></Error>,
-        // hydrateFallbackElement: <p>Loading....</p>,
+        errorElement: <ErrorRoutes></ErrorRoutes>,
         children: [
             {
                 index: true,
@@ -19,7 +20,8 @@ const router = createBrowserRouter([
             },
             {
                 path: '/apps',
-                element: <Apps></Apps>
+                element: <Apps></Apps>,
+
             },
             {
                 path: '/installed',
@@ -27,7 +29,12 @@ const router = createBrowserRouter([
             },
             {
                 path: '/appDetails/:id',
-                element: <AppDetails></AppDetails>
+                element: <AppDetails></AppDetails>,
+                errorElement: <AppError></AppError>
+            },
+            {
+                path: '*',
+                element: <ErrorRoutes></ErrorRoutes>
             }
         ]
     }

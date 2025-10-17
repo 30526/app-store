@@ -7,6 +7,7 @@ import starIcon from '../../assets/icon-ratings.png'
 import reviewIcon from '../../assets/icon-review.png'
 import Recharts from '../../components/Recharts/Recharts';
 import { getItem, saveData } from '../../components/LocalStorage/localStorage';
+import Loading from '../../components/Loading/Loading';
 
 
 const AppDetails = () => {
@@ -22,7 +23,7 @@ const AppDetails = () => {
 
     }, [])
     const app = appData.find(getApp => getApp.id === parseInt(id));
-    if (loading) return <p>Loading...</p>
+    if (loading) return <Loading></Loading>
 
 
     const handleInstallBtn = (promise) => {

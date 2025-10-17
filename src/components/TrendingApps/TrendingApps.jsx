@@ -3,10 +3,12 @@ import useAppData from '../../Hooks/useAppData';
 import Container from '../Container/Container';
 import AppCard from '../AppCard/AppCard';
 import { Link } from 'react-router';
+import Loading from '../Loading/Loading';
 
 
 const TrendingApps = () => {
-    const [appData] = useAppData();
+    const [appData, loading] = useAppData();
+    if (loading) return <Loading></Loading>;
     const trendingApp = appData.slice(0, 8);
     return (
         <Container>
