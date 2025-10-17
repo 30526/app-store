@@ -4,7 +4,7 @@ import heroImg from '../../assets/hero.png'
 const Banner = () => {
     return (
         <div>
-            <div className='text-center mt-20 border'>
+            <div className='text-center mt-20 px-4 md:px-0'>
                 <h2
                     className='font-bold text-6xl text-[#001931e8]'
                 >We Build<br /> <span className='bg-gradient-to-br 
@@ -20,6 +20,28 @@ const Banner = () => {
                 </div>
                 <div className='flex justify-center mt-12'>
                     <img src={heroImg} alt="" />
+                </div>
+            </div>
+            <div className='text-center py-12 bg-gradient-to-br
+                        from-[#632EE3] to-[#9F62F2]'>
+                <h2 className='text-4xl text-white font-bold'>Trusted By Millions, Built For You</h2>
+                <div className='flex flex-col md:flex-row my-10 justify-center gap-15 md:gap-30'>
+                    <div className='text-center'>
+                        <p className='text-white text-xs'>Total Downloads</p>
+                        <h3 className='text-6xl font-bold text-white my-3'>29.6M</h3>
+                        <p className='text-white text-xs'>21% More Than Last Month</p>
+                    </div>
+                    <div className='text-center'>
+                        <p className='text-white text-xs'>Total Reviews</p>
+                        <h3 className='text-6xl font-bold text-white my-3'>906K</h3>
+                        <p className='text-white text-xs'>46% More Than Last Month</p>
+                    </div>
+                    <div className='text-center'>
+                        <p className='text-white text-xs'>Active Apps</p>
+                        <h3 className='text-6xl font-bold text-white my-3'>132+</h3>
+                        <p className='text-white text-xs'>31 More Will Launch</p>
+                    </div>
+
                 </div>
             </div>
         </div>
