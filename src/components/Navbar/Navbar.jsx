@@ -1,15 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
 import { FaAppStore } from "react-icons/fa";
 import { MdInstallDesktop } from "react-icons/md";
+import { NavLink } from 'react-router';
 
 
 
 
 const Navbar = () => {
+    const [active, setActive] = useState('')
     return (
-        <nav className='navbar  bg-base-100 shadow-xs'>
+        <nav className='navbar  bg-base-100'>
             <div className="flex container mx-auto">
                 <div className="navbar-start">
                     <div className="dropdown">
@@ -19,9 +21,11 @@ const Navbar = () => {
                         <ul
                             tabIndex="-1"
                             className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-                            <li><a>Home</a></li>
-                            <li><a>Apps</a></li>
-                            <li><a>Installation</a></li>
+                            <NavLink to={'/'}><li>Home</li></NavLink>
+                            <NavLink to={'/apps'}><li>Apps</li></NavLink>
+                            <NavLink to={'/installed'}> <li>Installation</li></NavLink>
+
+
                         </ul>
                     </div>
                     <div className='flex items-center gap-2'>
@@ -31,17 +35,28 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li className=' hover:bg-[#632EE3] hover:text-white font-semibold'> <a><span></span>Home</a></li>
-                        <li className=' hover:bg-[#632EE3] hover:text-white font-semibold'><a><FaAppStore></FaAppStore>Apps</a></li>
-                        <li className=' hover:bg-[#632EE3] hover:text-white font-semibold'><a><MdInstallDesktop></MdInstallDesktop> Installation</a></li>
+                    <ul className='flex items-center gap-4 font-medium'>
+                        <NavLink to={'/'}>
+                            <span
+                                onClick={() => setActive('')}
+                                className={`hover:text-[#632EE3] ${active === '' && 'text-[#632EE3] underline'}`}>Home</span></NavLink>
+                        <NavLink to={'/apps'}>
+                            <span
+                                onClick={() => setActive('apps')}
+                                className={`hover:text-[#632EE3] flex items-center gap-1
+                             ${active === 'apps' && 'text-[#632EE3] underline'}`}><FaAppStore></FaAppStore> Apps</span></NavLink>
+                        <NavLink to={'/installed'}>
+                            <span
+                                onClick={() => setActive('installed')}
+                                className={`hover:text-[#632EE3] flex items-center gap-1
+                             ${active === 'installed' && 'text-[#632EE3] underline'}`}><MdInstallDesktop></MdInstallDesktop> Installation</span></NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <a className="btn bg-gradient-to-bl  from-[#632EE3] to-[#9F62F2] text-white"><span><FaGithub></FaGithub></span>Contribution</a>
+                    <a href='https://github.com/30526/' target='blank' className="btn bg-gradient-to-bl  from-[#632EE3] to-[#9F62F2] text-white"><span><FaGithub></FaGithub></span>Contribution</a>
                 </div>
             </div>
-        </nav>
+        </nav >
     );
 };
 
