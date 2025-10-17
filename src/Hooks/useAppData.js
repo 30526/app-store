@@ -14,7 +14,6 @@ const useAppData = () => {
             .catch(error => setErr(error))
             .finally(() => setLoading(false))
     }, [])
-    console.log(appData)
     return [appData, loading, err];
 }
 export default useAppData;

@@ -955,5 +955,203 @@
                 "count": 11580
             }
         ]
-    }
+    },
+  {
+    "id": 31,
+    "image": "https://img.icons8.com/clouds/300/apple-app-store.png",
+    "title": "Apple App Store",
+    "companyName": "Apple Inc.",
+    "description": "The Apple App Store is the cornerstone of the iOS ecosystem, offering millions of applications across categories like productivity, entertainment, education, and creativity...",
+    "size": 135,
+    "reviews": 450000,
+    "ratingAvg": 4.7,
+    "downloads": "15m",
+    "ratings": [
+      { "name": "1 star", "count": 3200 },
+      { "name": "2 star", "count": 5400 },
+      { "name": "3 star", "count": 9200 },
+      { "name": "4 star", "count": 28500 },
+      { "name": "5 star", "count": 406700 }
+    ]
+  },
+  {
+    "id": 32,
+    "image": "https://img.icons8.com/bubbles/300/spotify.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "description": "Spotify is a leading global music streaming service that allows users to access millions of songs, albums, and podcasts on demand...",
+    "size": 112,
+    "reviews": 380000,
+    "ratingAvg": 4.8,
+    "downloads": "12m",
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3800 },
+      { "name": "3 star", "count": 7400 },
+      { "name": "4 star", "count": 24000 },
+      { "name": "5 star", "count": 342300 }
+    ]
+  },
+  {
+    "id": 33,
+    "image": "https://img.icons8.com/clouds/300/tiktok.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "description": "TikTok is one of the most popular short-video platforms globally, known for its engaging and creative content...",
+    "size": 210,
+    "reviews": 410000,
+    "ratingAvg": 4.6,
+    "downloads": "18m",
+    "ratings": [
+      { "name": "1 star", "count": 4200 },
+      { "name": "2 star", "count": 6500 },
+      { "name": "3 star", "count": 9000 },
+      { "name": "4 star", "count": 29000 },
+      { "name": "5 star", "count": 361300 }
+    ]
+  },
+  {
+    "id": 34,
+    "image": "https://img.icons8.com/clouds/300/discord.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Discord is a communication platform designed for communities, gamers, and professionals to connect through voice, video, and text channels...",
+    "size": 165,
+    "reviews": 275000,
+    "ratingAvg": 4.5,
+    "downloads": "9.5m",
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 5200 },
+      { "name": "3 star", "count": 7400 },
+      { "name": "4 star", "count": 23000 },
+      { "name": "5 star", "count": 236400 }
+    ]
+  },
+  {
+    "id": 35,
+    "image": "https://img.icons8.com/ios-filled/300/shazam.png",
+    "title": "Shazam",
+    "companyName": "Apple Inc.",
+    "description": "Shazam is a music discovery app that instantly identifies songs playing nearby...",
+    "size": 95,
+    "reviews": 240000,
+    "ratingAvg": 4.8,
+    "downloads": "9m",
+    "ratings": [
+      { "name": "1 star", "count": 1800 },
+      { "name": "2 star", "count": 2600 },
+      { "name": "3 star", "count": 5400 },
+      { "name": "4 star", "count": 21000 },
+      { "name": "5 star", "count": 210200 }
+    ]
+  },
+  {
+    "id": 36,
+    "image": "https://img.icons8.com/clouds/300/apple-app-store.png",
+    "title": "App Store Lite",
+    "companyName": "Apple Inc.",
+    "description": "A lightweight version of Apple App Store for quick downloads and browsing.",
+    "size": 75,
+    "reviews": 120000,
+    "ratingAvg": 4.4,
+    "downloads": "5m",
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 12000 },
+      { "name": "5 star", "count": 9900 }
+    ]
+  },
+  {
+    "id": 37,
+    "image": "https://img.icons8.com/bubbles/300/spotify.png",
+    "title": "Spotify Kids",
+    "companyName": "Spotify AB",
+    "description": "Spotify for kids with curated playlists and parental controls.",
+    "size": 65,
+    "reviews": 95000,
+    "ratingAvg": 4.5,
+    "downloads": "3.5m",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 8100 }
+    ]
+  },
+  {
+    "id": 38,
+    "image": "https://img.icons8.com/clouds/300/tiktok.png",
+    "title": "TikTok Plus",
+    "companyName": "ByteDance Ltd.",
+    "description": "An enhanced version of TikTok for creators with advanced editing tools and analytics.",
+    "size": 220,
+    "reviews": 310000,
+    "ratingAvg": 4.7,
+    "downloads": "14m",
+    "ratings": [
+      { "name": "1 star", "count": 3500 },
+      { "name": "2 star", "count": 5000 },
+      { "name": "3 star", "count": 8500 },
+      { "name": "4 star", "count": 28000 },
+      { "name": "5 star", "count": 270000 }
+    ]
+  },
+  {
+    "id": 39,
+    "image": "https://img.icons8.com/clouds/300/discord.png",
+    "title": "Discord Lite",
+    "companyName": "Discord Inc.",
+    "description": "Simplified Discord for casual users and small communities.",
+    "size": 145,
+    "reviews": 190000,
+    "ratingAvg": 4.4,
+    "downloads": "6m",
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3300 },
+      { "name": "3 star", "count": 6400 },
+      { "name": "4 star", "count": 18000 },
+      { "name": "5 star", "count": 130200 }
+    ]
+  },
+  {
+    "id": 40,
+    "image": "https://img.icons8.com/ios-filled/300/shazam.png",
+    "title": "Shazam Music ID",
+    "companyName": "Apple Inc.",
+    "description": "Fast music identification with additional lyrics and sharing features.",
+    "size": 90,
+    "reviews": 160000,
+    "ratingAvg": 4.7,
+    "downloads": "7m",
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2200 },
+      { "name": "3 star", "count": 4300 },
+      { "name": "4 star", "count": 15500 },
+      { "name": "5 star", "count": 135500 }
+    ]
+  },
+  {
+    "id": 41,
+    "image": "https://img.icons8.com/bubbles/300/spotify.png",
+    "title": "Spotify Kids",
+    "companyName": "Spotify AB",
+    "description": "Spotify for kids with curated playlists and parental controls.",
+    "size": 65,
+    "reviews": 95000,
+    "ratingAvg": 4.5,
+    "downloads": "3.5m",
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 8100 }
+    ]
+  }
 ]
