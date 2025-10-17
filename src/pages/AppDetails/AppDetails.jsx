@@ -13,7 +13,7 @@ const AppDetails = () => {
     const [appData, loading] = useAppData()
     const app = appData.find(getApp => getApp.id === parseInt(id));
     if (loading) return <p>Loading...</p>
-    const { title, image, companyName, ratingAvg, reviews, downloads, size, ratings } = app;
+    const { title, image, companyName, ratingAvg, reviews, downloads, size, ratings, description } = app;
     return (
         <Container>
             <div className='my-15 items-center flex gap-10 flex-col md:flex-row'>
@@ -48,8 +48,14 @@ const AppDetails = () => {
                         className='bg-[#00D390] btn text-white mt-4 text-lg font-normal py-6'>Install Now ({size}MB)</button>
                 </div>
             </div>
+            <div className='border-1 border-gray-200 md:w-full my-6'></div>
             <div>
                 <Recharts key={id} ratings={ratings}></Recharts>
+            </div>
+            <div className='border-1 border-gray-200 md:w-full my-6'></div>
+            <div className='my-20'>
+                <h5 className='font-bold text-xl text-gray-900 mb-8'>Description</h5>
+                <p className='text-gray-600'>{description}</p>
             </div>
         </Container>
     );
