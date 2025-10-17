@@ -6,6 +6,20 @@ import { FaDownload, FaStar } from 'react-icons/fa';
 const Installed = () => {
     const getData = getItem()
     const [installedApp, setInstalledApp] = useState(getData)
+    const [sort, setSort] = useState('')
+
+    const sortedItem = (
+        () => {
+            if (sort === 'asc') {
+                return [...installedApp].sort((a, b) => a.ratingAvg - b.ratingAvg)
+            }
+            else if (sort === 'dsc') {
+                return [...installedApp].sort((a, b) => b.ratingAvg - a.ratingAvg)
+            }
+            else {
+                return installedApp;
+            }
+        })()
 
     const handleUninstallBtn = (id) => {
         handleRemove(id)
@@ -21,10 +35,19 @@ const Installed = () => {
                     <p className='text-xs  text-gray-600'>Explore All Trending Apps on the Market developed by us</p>
                 </div>
                 <div>
-                    <h2 className='text-2xl font-bold text-gray-800 mb-5'>{installedApp.length} Apps Found</h2>
+                    <div className="flex justify-between items-center mb-5">
+                        <h2 className='text-2xl font-bold text-gray-800 '>{installedApp.length} Apps Found</h2>
+                        <label className='form-control px-4'>
+                            <select className="select" value={sort} onChange={(e) => setSort(e.target.value)}>
+                                <option value="none">Sort By</option>
+                                <option value="asc">Low-High</option>
+                                <option value="dsc">High-Low</option>
+                            </select>
+                        </label>
+                    </div>
 
                     {
-                        installedApp.map(data => <div key={data.id} className='flex flex-col md:flex-row  md:justify-between items-center bg-white p-4 rounded-2xl mb-3'>
+                        sortedItem.map(data => <div key={data.id} className='flex flex-col md:flex-row  md:justify-between items-center bg-white p-4 rounded-2xl mb-3'>
                             <div className='flex gap-10 items-center'>
                                 <div className='bg-[#ebebeb] p-4 rounded-lg'>
                                     <img className='h-15' src={data.image} alt="" />
