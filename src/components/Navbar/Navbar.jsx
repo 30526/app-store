@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import logo from '../../assets/logo.png'
 import { FaGithub } from "react-icons/fa";
 import { FaAppStore } from "react-icons/fa";
@@ -10,8 +9,8 @@ import { TbHome } from "react-icons/tb";
 
 
 
+
 const Navbar = () => {
-    const [active, setActive] = useState('')
     return (
         <nav className='navbar  bg-base-100'>
             <div className="flex container mx-auto">
@@ -38,20 +37,21 @@ const Navbar = () => {
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className='flex items-center gap-4 font-medium'>
-                        <NavLink to={'/'}>
+                        <NavLink
+                            className={({ isActive }) => `${isActive ? 'text-[#632EE3] underline' : ''}`}
+                            to={'/'}>
                             <span
-                                onClick={() => setActive('')}
-                                className={`hover:text-[#632EE3] ${active === '' && 'text-[#632EE3] underline'} flex items-center gap-1`}><TbHome></TbHome> Home</span></NavLink>
-                        <NavLink to={'/apps'}>
+                                className={`hover:text-[#632EE3] flex gap-1 items-center`}><TbHome></TbHome> Home</span></NavLink>
+                        <NavLink
+                            className={({ isActive }) => `${isActive ? 'text-[#632EE3] underline' : ''}`}
+                            to={'/apps'}>
                             <span
-                                onClick={() => setActive('apps')}
-                                className={`hover:text-[#632EE3] flex items-center gap-1
-                             ${active === 'apps' && 'text-[#632EE3] underline'}`}><FaAppStore></FaAppStore> Apps</span></NavLink>
-                        <NavLink to={'/installed'}>
+                                className={`hover:text-[#632EE3] flex items-center gap-1`}><FaAppStore></FaAppStore> Apps</span></NavLink>
+                        <NavLink
+                            className={({ isActive }) => `${isActive ? 'text-[#632EE3] underline' : ''}`}
+                            to={'/installed'}>
                             <span
-                                onClick={() => setActive('installed')}
-                                className={`hover:text-[#632EE3] flex items-center gap-1
-                             ${active === 'installed' && 'text-[#632EE3] underline'}`}><MdInstallDesktop></MdInstallDesktop> Installation</span></NavLink>
+                                className={`hover:text-[#632EE3] flex items-center gap-1`}><MdInstallDesktop></MdInstallDesktop> Installation</span></NavLink>
                     </ul>
                 </div>
                 <div className="navbar-end">

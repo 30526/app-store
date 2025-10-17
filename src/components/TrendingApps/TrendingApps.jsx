@@ -4,8 +4,9 @@ import Container from '../Container/Container';
 import AppCard from '../AppCard/AppCard';
 import { Link } from 'react-router';
 
+
 const TrendingApps = () => {
-    const [appData] = useAppData()
+    const [appData] = useAppData();
     const trendingApp = appData.slice(0, 8);
     return (
         <Container>
@@ -21,7 +22,9 @@ const TrendingApps = () => {
                     }
                 </div>
                 <div className='text-center mb-20'>
-                    <Link to={'/apps'} className='btn bg-gradient-to-br
+                    <Link
+                        to={'/apps'}
+                        className='btn bg-gradient-to-br
                         from-[#632EE3] to-[#9F62F2] text-white px-6 rounded-md'>Show All</Link>
                 </div>
             </div>
