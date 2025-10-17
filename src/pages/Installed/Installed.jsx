@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { getItem, handleRemove } from '../../components/LocalStorage/localStorage';
 import Container from '../../components/Container/Container';
 import { FaDownload, FaStar } from 'react-icons/fa';
+import { toast } from 'react-toastify/unstyled';
 
 const Installed = () => {
     const getData = getItem()
@@ -22,8 +23,10 @@ const Installed = () => {
         })()
 
     const handleUninstallBtn = (id) => {
+        toast.success('Removed');
         handleRemove(id)
         setInstalledApp(prev => prev.filter(p => p.id !== id))
+        alert('gweg')
     }
 
     return (

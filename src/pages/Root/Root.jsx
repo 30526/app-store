@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify';
 import React from 'react';
 import Navbar from '../../components/Navbar/Navbar';
 import { Outlet } from 'react-router';
@@ -9,6 +10,7 @@ const Root = () => {
             <Navbar></Navbar>
             <Outlet></Outlet>
             <Footer></Footer>
+            <ToastContainer />
         </div>
     );
 };

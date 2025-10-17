@@ -1,3 +1,5 @@
+import { toast } from "react-toastify/unstyled";
+
 export const getItem = () => {
     try {
         const getData = JSON.parse(localStorage.getItem('appData'))
@@ -17,11 +19,11 @@ export const saveData = (data) => {
     try {
         const isDuplicate = oldData.some(app => app.id === data.id)
         if (isDuplicate) {
-            alert("already added")
             return;
         }
         const updatedData = [...oldData, data];
         localStorage.setItem('appData', JSON.stringify(updatedData))
+        
     }
     catch (error) {
         console.log(error)

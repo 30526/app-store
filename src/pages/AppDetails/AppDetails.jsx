@@ -10,6 +10,7 @@ import { getItem, saveData } from '../../components/LocalStorage/localStorage';
 import Loading from '../../components/Loading/Loading';
 
 
+
 const AppDetails = () => {
 
     const { id } = useParams()
