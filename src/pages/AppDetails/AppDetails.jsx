@@ -8,6 +8,7 @@ import reviewIcon from '../../assets/icon-review.png'
 import Recharts from '../../components/Recharts/Recharts';
 import { getItem, saveData } from '../../components/LocalStorage/localStorage';
 import Loading from '../../components/Loading/Loading';
+import { toast } from 'react-toastify';
 
 
 
@@ -30,6 +31,7 @@ const AppDetails = () => {
     const handleInstallBtn = (promise) => {
         isInstalled(promise)
         saveData(app)
+        toast.success("Successfully Installed")
     }
     const { title, image, companyName, ratingAvg, reviews, downloads, size, ratings, description } = app;
 

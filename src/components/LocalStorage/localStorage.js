@@ -1,4 +1,3 @@
-import { toast } from "react-toastify/unstyled";
 
 export const getItem = () => {
     try {
@@ -9,9 +8,6 @@ export const getItem = () => {
         console.log(error)
         return [];
     }
-
-
-
 }
 
 export const saveData = (data) => {
@@ -23,7 +19,7 @@ export const saveData = (data) => {
         }
         const updatedData = [...oldData, data];
         localStorage.setItem('appData', JSON.stringify(updatedData))
-        
+
     }
     catch (error) {
         console.log(error)
